@@ -14,3 +14,28 @@ body {
   padding: 30px;
   border-radius: 12px;
 }
+.wrapper h1 {
+  color: crimson;
+  font-size: x-large;
+  text-align: center;
+}
+.wrapper a {
+  text-decoration: none;
+  color: rgb(10, 48, 82);
+  font-size: 20px;
+}
+.wrapper a:hover {
+  text-decoration: underline;
+  color: rgb(4, 95, 170);
+}
+.wrapper p {
+  display: none;
+  border: 1px solid lightgray;
+  padding: 20px 10px;
+  border-radius: 10px;
+  background-color: #000;
+  color: yellow;
+  text-transform: lowercase;
+  line-height: 1.5;
+  text-align: center;
+}
