@@ -1,5 +1,5 @@
 body {
-  background-color: cadetblue;
+  background-color: rgb(77, 55, 55);
 }
 .container {
   display: flex;
@@ -10,14 +10,15 @@ body {
 
 .wrapper {
   width: 600px;
-  background-color: rgb(134, 238, 29);
+  background-color: rgb(111, 235, 235);
   padding: 30px;
   border-radius: 12px;
+  border: 2px solid rgb(0, 0, 0, 0.5);
 }
 .wrapper h1 {
-  color: crimson;
+  color: rgba(111, 16, 3, 0.877);
   font-size: x-large;
-  text-align: center;
+  text-align: left;
 }
 .wrapper a {
   text-decoration: none;
@@ -38,4 +39,5 @@ body {
   text-transform: lowercase;
   line-height: 1.5;
   text-align: center;
+  transition: opacity 0.5s;
 }
