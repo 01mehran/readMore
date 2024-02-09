@@ -1,0 +1,16 @@
+body {
+  background-color: cadetblue;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.wrapper {
+  width: 600px;
+  background-color: rgb(134, 238, 29);
+  padding: 30px;
+  border-radius: 12px;
+}
